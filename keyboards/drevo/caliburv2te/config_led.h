@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define LED_PIN_ON_STATE 0
 
-
+#define RGBLIGHT_SLEEP
 
 /* RGB Matrix Effects */
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
