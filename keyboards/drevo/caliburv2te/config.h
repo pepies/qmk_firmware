@@ -50,7 +50,7 @@
 /* Locking resynchronize hack */
 //#define LOCKING_RESYNC_ENABLE
 
-#define TAPPING_TERM 200
+#define TAPPING_TERM 190
 #define IGNORE_MOD_TAP_INTERRUPT
 
 #include "config_led.h"

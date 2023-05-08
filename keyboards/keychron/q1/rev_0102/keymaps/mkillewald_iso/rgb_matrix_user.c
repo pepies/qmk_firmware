@@ -67,11 +67,11 @@ void rgb_matrix_set_color_by_keycode(uint8_t led_min, uint8_t led_max, uint8_t l
 
 bool is_caps_lock_indicator(uint16_t keycode) {
     bool indicator = keycode == KC_CAPS;
-    
+
     if (get_caps_lock_light_tab()) {
         indicator = keycode == KC_TAB || keycode == KC_CAPS;
     }
-    
+
     if (get_caps_lock_light_alphas()) {
         return (KC_A <= keycode && keycode <= KC_Z) || indicator;
     } else {
